@@ -1,3 +1,12 @@
+<script>
+    import Header from '../components/Header.svelte';
+    import Main from '../components/Main.svelte';
+    import TimeLine from '../components/TimeLine.svelte';
+    import Slidebar from '../components/Slidebar.svelte';
+
+</script>
+
+
 <style>
     :global(body) {
         background-color: #676778;
@@ -6,6 +15,8 @@
 
 </style>
 
-<div class="main">
-    <h1>Hello Pugstagram</h1>
-</div>
+<Header />
+<Main >
+    <TimeLine />
+    <Slidebar />
+</Main>

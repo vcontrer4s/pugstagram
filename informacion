@@ -1,3 +1,7 @@
+complementos de vscode
+	relative path => autocompleta las rutas de los archivos
+	font awersome => buscamos logos svg 
+	
 para iniciar un proyecto
 	creamos la carpeta
 		mkdir proyecto
@@ -56,4 +60,4 @@ npm run build
 npm run start
 	debería verse en el browser la app puerto 8080 por default
 
-
+todo listo para iniciar cualquier proyecto
