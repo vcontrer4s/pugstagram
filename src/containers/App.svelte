@@ -1,11 +1,19 @@
 <script>
+    import { onMount } from 'svelte';
     import Header from '../components/Header.svelte';
     import Main from '../components/Main.svelte';
     import TimeLine from '../components/TimeLine.svelte';
     import Slidebar from '../components/Slidebar.svelte';
 
-</script>
+    let data = {};
+    const API = "https://us-central1-pugstagram-co.cloudfunctions.net/data";
 
+    onMount(async () => {
+        const response = await fetch(API);
+        data = await response.json();
+    });
+
+</script>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
@@ -27,6 +35,6 @@
 
 <Header />
 <Main >
-    <TimeLine />
-    <Slidebar />
+    <TimeLine posts={data.posts} />
+    <Slidebar {...data.user} />
 </Main>

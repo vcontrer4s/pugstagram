@@ -2,6 +2,10 @@
   import Profile from "./Profile.svelte";
   import Stories from "./Stories.svelte";
   import Footer from "./Footer.svelte";
+
+  export let nickName;
+  export let name;
+
 </script>
 
 <style>
@@ -16,7 +20,7 @@
 
 <div class="Slidebar">
   <div class="Slidebar-container">
-    <Profile />
+    <Profile {nickName} {name} />
     <Stories />
     <Footer />
   </div>

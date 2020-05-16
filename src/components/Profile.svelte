@@ -1,3 +1,8 @@
+<script>
+  export let nickName;
+  export let name;
+</script>
+
 <style>
   .Profile-content {
     display: flex;
@@ -29,8 +34,8 @@
       <img src="../../public/img/victor.jpg" alt="Foto de perfil" />
     </div>
     <div class="Profile-info">
-      <h2>v.contrer4s</h2>
-      <span>Victor Contreras</span>
+      <h2>{nickName}</h2>
+      <span>{name}</span>
     </div>
   </div>
 </div>
