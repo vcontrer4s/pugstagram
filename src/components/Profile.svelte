@@ -31,7 +31,7 @@
 <div class="Profile">
   <div class="Profile-content">
     <div class="Profile-avatar">
-      <img src="../../public/img/victor.jpg" alt="Foto de perfil" />
+      <img src="https://vignette.wikia.nocookie.net/mangakaart/images/e/e7/Gokunormal.png/revision/latest/scale-to-width-down/320?cb=20130902145734&path-prefix=es" alt="Foto de perfil" />
     </div>
     <div class="Profile-info">
       <h2>vcontrer4s</h2>
