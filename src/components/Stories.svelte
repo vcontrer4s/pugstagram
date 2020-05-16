@@ -69,7 +69,7 @@
           <img src="https://vignette.wikia.nocookie.net/mangakaart/images/e/e7/Gokunormal.png/revision/latest/scale-to-width-down/320?cb=20130902145734&path-prefix=es" alt="Foto de perfil" />
         </div>
         <h2>
-          v.contrer4s
+          vcontrer4s
           <span>10 horas antes</span>
         </h2>
       </div>
