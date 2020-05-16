@@ -1,6 +1,6 @@
 <script>
-  export let nickName;
-  export let name;
+  //export let nickName;
+  //export let name;
 </script>
 
 <style>
@@ -34,8 +34,8 @@
       <img src="../../public/img/victor.jpg" alt="Foto de perfil" />
     </div>
     <div class="Profile-info">
-      <h2>{nickName}</h2>
-      <span>{name}</span>
+      <h2>vcontrer4s</h2>
+      <span>Victor Contreras</span>
     </div>
   </div>
 </div>
